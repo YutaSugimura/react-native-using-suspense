@@ -20,7 +20,7 @@ import {
 } from 'react-native';
 import {Colors} from 'react-native/Libraries/NewAppScreen';
 import {RecoilRoot} from 'recoil';
-import {RecoilSuspend} from './src/Recoil';
+import {SuspendRecoil} from './src/Recoil';
 import {DataLoader} from './src/Simple';
 import {SuspendContainer} from './src/SuspendContainer';
 
@@ -41,7 +41,7 @@ const App: React.FC = () => {
           <View style={styles.box}>
             <Text style={styles.title}>Suspense using Recoil</Text>
             <SuspendContainer fallbackText="Loading...">
-              <RecoilSuspend />
+              <SuspendRecoil />
             </SuspendContainer>
           </View>
 

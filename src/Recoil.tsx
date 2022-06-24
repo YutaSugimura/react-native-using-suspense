@@ -24,7 +24,7 @@ const asyncPowState = selector({
   },
 });
 
-export const RecoilSuspend: React.FC = () => {
+export const SuspendRecoil: React.FC = () => {
   const num = useRecoilValue(asyncPowState);
 
   return <Text>Number is {num}</Text>;
