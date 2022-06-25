@@ -1,6 +1,6 @@
 # React 18 and the React Native New Architecture
 
-## Usage
+## Get Started
 
 1. Pod install
 
